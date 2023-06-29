@@ -18,11 +18,11 @@ export default {
   },
   watch:{
     $route(){
-      this.$store.commit(onStart);
+      this.$store.commit('onload');
     }
   },
   mounted(){
-    this.$store.commit(onStart);
+    this.$store.commit('onload');
   }
 }
 </script>
